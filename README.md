@@ -1,5 +1,5 @@
 # Small Links
-Um encurtador de URLs moderno, simples e eficiente construído com Next.js e React.
+Um encurtador de URLs moderno, simples e eficiente construído com Next.js, TypeScript e TailwindCSS.
 
 ## 📋 Sobre o Projeto
 Small Links é uma aplicação web que permite aos usuários encurtar URLs longas de forma rápida e intuitiva. Com uma interface clean e moderna, o projeto oferece funcionalidades essenciais como monitoramento de estatísticas de acesso e status da API em tempo real.
@@ -19,11 +19,11 @@ Small Links é uma aplicação web que permite aos usuários encurtar URLs longa
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Frontend: Next.js 14, React 18, TypeScript
-- Estilização: Tailwind CSS
-- Ícones: Heroicons
-- API: REST API hospedada no Railway
-- Navegador: Clipboard API para funcionalidade de cópia
+* **[Next.js](https://nextjs.org/)** - Framework React para produção.
+* **[React](https://reactjs.org/)** - Biblioteca para construção de interfaces de usuário.
+* **[TypeScript](https://www.typescriptlang.org/)** - Superset de JavaScript com tipagem estática.
+* **[Tailwind CSS](https://tailwindcss.com/)** - Framework de CSS para estilização rápida.
+* **[Heroicons](https://heroicons.com/)** - Ícones SVG de alta qualidade.
 
 ## 🚀 Como Usar
 
