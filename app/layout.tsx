@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Small Links",
   description: "shorten your url",
-  authors: [{name: "Apolinário!", url: "https://github.com/apolinario0x21"}]
+  authors: [{name: "Apolinário!",  url: "https://github.com/apolinario0x21"}]
 };
 
 export default function RootLayout({
