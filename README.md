@@ -1,4 +1,15 @@
 # Small Links
+
+[![Status do Deploy](https://api.netlify.com/api/v1/badges/da13c47e-18cc-457e-9103-01c175bba7cc/deploy-status)](https://small-links-apolinario0x21.netlify.app/)
+[![Licença: MIT](https://img.shields.io/github/license/apolinario0x21/small-links-web)](https://github.com/apolinario0x21/small-links-web/blob/main/LICENSE)
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+
+
 Um encurtador de URLs moderno, simples e eficiente construído com Next.js, TypeScript e TailwindCSS.
 
 ## 📋 Sobre o Projeto
