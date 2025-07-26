@@ -79,4 +79,4 @@ A aplicação é totalmente responsiva com breakpoints:
 - Abra um Pull Request
 
 ## 📝 Licença
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE]() para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/apolinario0x21/small-links-web/blob/main/LICENSE) para mais detalhes.
