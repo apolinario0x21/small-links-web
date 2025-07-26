@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Small Links
+Um encurtador de URLs moderno, simples e eficiente construído com Next.js e React.
 
-## Getting Started
+## 📋 Sobre o Projeto
+Small Links é uma aplicação web que permite aos usuários encurtar URLs longas de forma rápida e intuitiva. Com uma interface clean e moderna, o projeto oferece funcionalidades essenciais como monitoramento de estatísticas de acesso e status da API em tempo real.
 
-First, run the development server:
+![Page](page.png)
 
+
+## ✨ Funcionalidades
+
+- Encurtamento de URLs: Transforme links longos em URLs curtas e fáceis de compartilhar
+- Validação Automática: Adiciona automaticamente https:// quando necessário
+- Cópia Rápida: Botão para copiar a URL encurtada com feedback visual
+- Estatísticas: Visualize dados de acesso, data de criação e URL original
+- Status da API: Monitoramento em tempo real do status da API
+- Interface Responsiva: Design adaptável para desktop e mobile
+- Animações Suaves: Transições e feedbacks visuais elegantes
+
+## 🛠️ Tecnologias Utilizadas
+
+- Frontend: Next.js 14, React 18, TypeScript
+- Estilização: Tailwind CSS
+- Ícones: Heroicons
+- API: REST API hospedada no Railway
+- Navegador: Clipboard API para funcionalidade de cópia
+
+## 🚀 Como Usar
+
+1. Acesse a aplicação no seu navegador
+2. Digite ou cole a URL que deseja encurtar no campo de entrada
+3. Clique em "Encurtar URL" ou pressione Enter
+4. Copie a URL encurtada usando o botão de cópia
+5. Visualize estatísticas clicando no botão "Estatísticas"
+
+## 📦 Instalação e Configuração
+### Pré-requisitos
+
+- Node.js 18+
+- npm ou yarn
+
+### Instalação
 ```bash
+# Clone o repositório
+git clone https://github.com/apolinario0x21/small-links-web.git
+
+# Navegue para o diretório
+cd small-links-web
+
+# Instale as dependências
+npm install
+
+# Execute em modo de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+A aplicação estará disponível em http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📡 API Endpoints
+A aplicação consome os seguintes endpoints:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `GET /health` - Status da API e total de URLs
+- `GET /shorten?url={url}` - Encurta uma URL
+- `GET /stats/{shortId}` - Estatísticas de uma URL específica
 
-## Learn More
+## 📱 Responsividade
+A aplicação é totalmente responsiva com breakpoints:
 
-To learn more about Next.js, take a look at the following resources:
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contribuição
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Faça um fork do projeto
+- Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+- Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+- Push para a branch (`git push origin feature/AmazingFeature`)
+- Abra um Pull Request
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE]() para mais detalhes.
